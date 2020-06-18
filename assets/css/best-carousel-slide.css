@@ -1,0 +1,128 @@
+div.jumbotron.carousel-hero {
+  color: #fff;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: -0;
+  width: 100%;
+  height: 1000px;
+}
+
+div.jumbotron.hero-nature {
+  background-image: url('../../assets/img/IMG_8367.jpg');
+}
+
+div.jumbotron.hero-photography {
+  background-image: url('../../assets/img/IMG_5980.jpg');
+}
+
+div.jumbotron.hero-technology {
+  background-image: url('../../assets/img/IMG_8030.jpg');
+}
+
+h1.hero-title, h2.hero-title, h3.hero-title {
+  text-shadow: 0 3px 3px rgba(0,0,0,0.4);
+  color: #fff;
+  text-shadow: black 0.03em 0.03em 0.1em;
+}
+
+p.hero-subtitle {
+  max-width: 600px;
+  margin: 25px auto;
+  padding: 10px 15px;
+  color: #fff;
+  text-shadow: black 0.03em 0.03em 0.1em;
+}
+
+.plat {
+  border-radius: 0px;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: 0 0 0 0 #048f83!important;
+}
+
+.btn-primary:hover {
+  color: #ffffff;
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.btn.btn-primary {
+  color: black;
+  background-color: #eef4f3!important;
+  border-color: #ffffff!important;
+  border-radius: 45px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Libre Baskerville', serif;
+  text-shadow: black 0.03em 0.03em 0.1em;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: 0 0 0 .2rem rgba(0,123,255,.5);
+}
+
+* {
+  /*box-sizing: inherit;*/
+}
+
+*:before, *:after {
+  /*box-sizing: inherit;*/
+}
+
+span {
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+#carousel {
+  margin-top: -40px;
+}
+
+.h1, h1 {
+  padding-top: 200px;
+  font-family: Allura, cursive;
+  text-shadow: black 0.03em 0.03em 0.1em;
+  font-size: 60px;
+}
+
+@media (min-width: 768px) {
+  .h1, h1 {
+    font-size: 120px;
+  }
+}
+
+@media (max-width: 300px) {
+  .h1, h1 {
+  }
+}
+
+.hero-subtitle {
+  font-size: 36px;
+  letter-spacing: 16px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.btn.btn-primary.hero-button.plat {
+  margin-top: 120px;
+}
+
+#carousel-1 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.h2, h2 {
+  font-family: Allura, cursive;
+  text-shadow: black 0.03em 0.03em 0.1em;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.sobre-p {
+  font-family: 'Libre Baskerville', serif;
+}
+
